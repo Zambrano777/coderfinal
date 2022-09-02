@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOYOTA - COTIZAR CARROS TOYOTA</title>
+    <meta
+      name="Description"
+      content="Solicita una cotización de tu modelo favorito completa la información en nuestro formulario para contactarnos contigo, pronto podrás estrenar tu nuevo Toyota"
+    />
+    <meta
+      name="Keywords"
+      content="toyota peru, carros en venta, concesionarios, carros deportivos, camionetas 4x4, hatchback, camionetas toyota, carros toyota"
+    />
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/misestilos.css" />
+  </head>
+
+  <body>
+    <!-- body code goes here -->
+    <header>
+      <div id="menu2" class="position-absolute w-100">
+        <nav
+          id="menu"
+          class="navbar navbar-expand-lg navbar-dark bg-transparent"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="/index.html"
+              ><img
+                class="logotipo"
+                src="/IMAGENES/ICONOS/toyota-logo-png-chrome-5.png"
+                alt="logo toyota"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link pr-3" href="mundo_toyota.html"
+                    >MUNDO TOYOTA</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pr-3" href="plantilla.html">TU TOYOTA</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link pr-3" href="cotizar.html">COTIZAR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pr-3" href="/pages/camry.html"
+                    >CONCESIONARIOS</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section class="cabecera">
+        <div
+          class="jumbotron mb-0 cabecera cabecera-4 d-flex flex-column justify-content-center rounded-0"
+        >
+          <div class="container text-white text-lg-left">
+            <h1>COTIZADOR <br _mstmutation="1" _istranslated="1" />TOYOTA</h1>
+            <h4>
+              Cotiza el modelo <br _mstmutation="1" _istranslated="1" />que más
+              te guste.
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section id="cotizar">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 text-center text-md-left">
+              <h2>FORMULARIO</h2>
+              <h2 class="borde">DE COTIZACIÓN</h2>
+              <p class="text-black-50">
+                *Completa tu cotización llenando el siguiente formulario.
+              </p>
+              <p>
+                Si deseas financiamiento vehicular, agregar Seguro Toyota y/o
+                Toyota Value, ingresa al Financiamiento Toyota para incluir
+                alguno de estos productos en tu cotización.
+              </p>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <img
+                class="img-fluid"
+                src="/IMAGENES/Auto-CHR-escogetutoyota-2_0.png"
+                alt="carros toyota"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <h5>DATOS DEL CLIENTE</h5>
+              <form action="#">
+                <div class="form-group">
+                  <label for="documento">Tipo de documento:</label>
+                  <select
+                    required="required"
+                    class="form-control"
+                    id="documento"
+                  >
+                    <option selected="selected">- Seleccionar -</option>
+                    <option value="dni">DNI</option>
+                    <option value="ruc">RUC</option>
+                    <option value="carnet de extranjeria">
+                      Carnet de extrangeria
+                    </option>
+                    <option value="pasaporte">Pasaporte</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="numero_documento">N°de documento:</label>
+                  <input
+                    type="text"
+                    required="required"
+                    class="form-control"
+                    id="numero_documento"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="nombre">Nombre:</label>
+                  <input
+                    type="text"
+                    required="required"
+                    class="form-control"
+                    id="nombre"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="apellidos">Apellidos:</label>
+                  <input
+                    type="text"
+                    required="required"
+                    class="form-control"
+                    id="apellidos"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="correo">Email:</label>
+                  <input
+                    type="email"
+                    required="required"
+                    class="form-control"
+                    id="correo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="celular">Celular:</label>
+                  <input
+                    type="tel"
+                    required="required"
+                    class="form-control"
+                    id="celular"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="departamento">Departamento:</label>
+                  <select
+                    required="required"
+                    class="form-control"
+                    id="departamento"
+                  >
+                    <option selected="selected">- Seleccionar -</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="ancash">Áncash</option>
+                    <option value="apurimac">Apurímac</option>
+                    <option value="arequipa">Arequipa</option>
+                    <option value="cajamarca">Cajamarca</option>
+                    <option value="cajamarca">Cajamarca</option>
+                    <option value="callao">Callao</option>
+                    <option value="cusco">Cusco</option>
+                    <option value="huancavelica">Huancavelica</option>
+                    <option value="huanuco">Huánuco</option>
+                    <option value="ica">Ica</option>
+                    <option value="junin">Junín</option>
+                    <option value="la libertad">La Libertad</option>
+                    <option value="lambayeque">Lambayeque</option>
+                    <option value="lima">Lima</option>
+                    <option value="loreto">Loreto</option>
+                    <option value="madrededios">Madre de Dios</option>
+                    <option value="moquegua">Moquegua</option>
+                    <option value="pasco">Pasco</option>
+                    <option value="piura">Piura</option>
+                    <option value="puno">Puno</option>
+                    <option value="sanmartin">San Martín</option>
+                    <option value="tacna">Tacna</option>
+                    <option value="tumbes">Tumbes</option>
+                    <option value="ucayali">Ucayali</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-md-6">
+              <h5>DATOS DEL VEHÍCULOS</h5>
+              <form action="#">
+                <div class="form-group">
+                  <label for="modelo">Modelo:</label>
+                  <select required="required" class="form-control" id="modelos">
+                    <option selected="selected">
+                      - Seleccione un modelo -
+                    </option>
+                    <option value="4runner">4RUNNNER</option>
+                    <option value="86">86</option>
+                    <option value="agya">AGYA</option>
+                    <option value="avanza">AVANZA</option>
+                    <option value="c-hr">C-HR</option>
+                    <option value="camry">CAMRY</option>
+                    <option value="corolla">COROLLA</option>
+                    <option value="corollahb">COROLLA HB</option>
+                    <option value="etios">ETIOS</option>
+                    <option value="fjcruiser">FJ CRUISER</option>
+                    <option value="fortuner">FORTUNER</option>
+                    <option value="hiace">HIACE</option>
+                    <option value="hilux">HILUX</option>
+                    <option value="prius">PRIUS</option>
+                    <option value="yaris">YARIS</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="version">Versión:</label>
+                  <select required="required" class="form-control" id="version">
+                    <option selected="selected">
+                      - Seleccione una versión -
+                    </option>
+                    <option value="2.7tx-lmt">2.7TX-L MT</option>
+                    <option value="2.7tx-lat">2.7TX-L AT</option>
+                    <option value="4.0tx-lmt">4.0TX-L MT</option>
+                    <option value="4.0tx-lat">4.0TX-L AT</option>
+                    <option value="4.0vx at">4.0VX AT</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="color">Color:</label>
+                  <select class="form-control" id="color">
+                    <option selected="selected">- Seleccione un color -</option>
+                  </select>
+                </div>
+                <h5>RED DE CONCESIONARIOS</h5>
+                <div class="form-group">
+                  <label for="ubicacion">Ubicación:</label>
+                  <select
+                    required="required"
+                    class="form-control"
+                    id="ubicacion"
+                  >
+                    <option selected="selected">- Seleccionar -</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="ancash">Áncash</option>
+                    <option value="apurimac">Apurímac</option>
+                    <option value="arequipa">Arequipa</option>
+                    <option value="cajamarca">Cajamarca</option>
+                    <option value="cajamarca">Cajamarca</option>
+                    <option value="callao">Callao</option>
+                    <option value="cusco">Cusco</option>
+                    <option value="huancavelica">Huancavelica</option>
+                    <option value="huanuco">Huánuco</option>
+                    <option value="ica">Ica</option>
+                    <option value="junin">Junín</option>
+                    <option value="la libertad">La Libertad</option>
+                    <option value="lambayeque">Lambayeque</option>
+                    <option value="lima">Lima</option>
+                    <option value="loreto">Loreto</option>
+                    <option value="madrededios">Madre de Dios</option>
+                    <option value="moquegua">Moquegua</option>
+                    <option value="pasco">Pasco</option>
+                    <option value="piura">Piura</option>
+                    <option value="puno">Puno</option>
+                    <option value="sanmartin">San Martín</option>
+                    <option value="tacna">Tacna</option>
+                    <option value="tumbes">Tumbes</option>
+                    <option value="ucayali">Ucayali</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="concesionario">Concesionario:</label>
+                  <select class="form-control" id="concesionario">
+                    <option selected="selected">
+                      Seleccione un concesionario
+                    </option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="comentario">Comentario/Observación*</label>
+                  <textarea
+                    rows="4"
+                    required="required"
+                    class="form-control"
+                    id="comentario"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label class="text-black-50">Términos y condiciones*</label>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      required="required"
+                      class="form-check-input"
+                      id="terminos"
+                    />
+                    <label for="terminos" class="form-check-label text-black-50"
+                      >Acepto que Toyota utilice mi información para los fines
+                      contenidos en la cláusula. Ver detalle Al enviar el
+                      formulario, acepto los términos y condiciones y la
+                      política de privacidad.</label
+                    >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="text-white btn-rojito" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section id="contenido">
+      <div class="container"></div>
+    </section>
+
+    <footer>
+      <div id="datos" class="bg-negro">
+        <div class="container py-5">
+          <img
+            class="imagen-logo pb-3"
+            src="/IMAGENES/ICONOS/toyota-logo-png-chrome-5.png"
+            alt="logo toyota"
+          />
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-2 pb-4">
+              <h2 class="h5 text-white-50">MUNDO TOYOTA</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">HISTORIA</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">MISIÓN Y VISIÓN</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">VALORES</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">FILOSOFÍA</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">TOYOTA GAZOO RACING</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 pb-4">
+              <h2 class="h5 text-white-50">TU TOYOTA</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="camry.html">CAMRY</a></li>
+                <li class="list-group-item">
+                  <a href="cotizar.html">MODELOS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">HIBRIDOS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="plantilla.html">TOYOTA A GAS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="camry.html">¿POR QUÉ TOYOTA?</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 pb-4 text-left">
+              <h2 class="h5 text-white-50">COTIZAR</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="camry.html">PROMOCIONES</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="cotizar.html">SOLICITAR COTIZACIÓN</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">FINANCIAMIENTO</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="plantilla.html">TOYOTA MAS</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 pb-4">
+              <h2 class="h5 text-white-50">SERVICIOS</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="camry.html">LOCALIZADOR DE DISTRIBUIDORES</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 pb-4">
+              <h2 class="h5 text-white-50">CONCESIONARIOS</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a href="camry.html">LLAMADO A REVISIÓN</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="cotizar.html">SEGURO TOYOTA</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="mundo_toyota.html">CONSULTAS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="plantilla.html">RECLAMOS</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="camry.html">PREGUNTAS FRECUENTES</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 pb-4">
+              <h2 class="h5 text-white-50">SIGUENOS EN</h2>
+              <div class="iconos">
+                <a href="https://www.twitter.com">
+                  <img
+                    src="/IMAGENES/ICONOS/icon-twitter.png"
+                    alt="icono twitter"
+                /></a>
+                <a href="https://www.facebook.com">
+                  <img
+                    src="/IMAGENES/ICONOS/icon-facebook.png"
+                    alt="icono facebook"
+                /></a>
+                <a href="https://www.instagram.com">
+                  <img
+                    src="/IMAGENES/ICONOS/icon-instagram.png"
+                    alt="icono instagram"
+                /></a>
+                <a href="https://www.youtube.com">
+                  <img
+                    src="/IMAGENES/ICONOS/icon-youtube.png"
+                    alt="icono youtube"
+                /></a>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-danger text-center">
+                  LINEA GRATUITA
+                </li>
+                <li class="list-group-item text-white-50 text-center">
+                  Desarrollo por Alvaro Zambrano
+								<a href="alvarodev.html" target="_blank">Conoce su trabajo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
